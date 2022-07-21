@@ -5,6 +5,7 @@
     [phone]      VARCHAR (20)  NULL,
     [address]    VARCHAR (100) NULL,
     [created_at] DATETIME      DEFAULT (getdate()) NOT NULL,
+    [additional] VARCHAR(50) NULL, 
     PRIMARY KEY CLUSTERED ([id] ASC),
     UNIQUE NONCLUSTERED ([email] ASC)
 );
